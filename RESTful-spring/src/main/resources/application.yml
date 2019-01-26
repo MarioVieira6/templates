@@ -1,0 +1,14 @@
+########################################
+# Setting Up tomcat, log4j and so on...
+########################################
+
+server:
+  port: 8084
+
+logging:
+  level:
+    com.spring.restful: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file: ./logs/RESTful-api.log 
