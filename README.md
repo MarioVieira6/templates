@@ -23,14 +23,14 @@ mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-grizzly2 \
 -DgroupId=com.java.jersey -DartifactId=RESTful-jersey -Dpackage=com.java.jersey \
 -DarchetypeVersion=2.27
   
-Note: Change the groupId and artifactId as you want. For more details check https://jersey.github.io/documentation/latest/getting-started.html
+Note: Change the groupId and artifactId as you want. For more details check [Jersey](https://jersey.github.io/documentation/latest/getting-started.html)
 
 ## angular-template
 
 * MDB
 * PrimeNG
 
-These project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-rc.5.
+These projects was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-rc.5.
 Run `ng update @angular/cli` and then `ng update @angular/core` for new version.
 
 ### Development server
