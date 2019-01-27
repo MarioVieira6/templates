@@ -30,7 +30,8 @@ Note: Change the groupId and artifactId as you want. For more details check http
 * MDB
 * PrimeNG
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-rc.5.
+These project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-rc.5.
+Run `ng update @angular/cli` and then `ng update @angular/core` for new version.
 
 ### Development server
 
@@ -68,6 +69,4 @@ Type one of the below commands to remove demo application from this project:
 * npm run remove-demo-unix to remove demo application on UNIX based systems,
 * npm run remove-demo-windows to remove demo application on Windows systems.
 
-### Update angular/cli
 
-Run `ng update` `@angular/cli` and `ng update` `@angular/core` for new version.
