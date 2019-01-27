@@ -66,4 +66,6 @@ Type one of the below commands to remove demo application from this project:
 * npm run remove-demo-unix to remove demo application on UNIX based systems,
 * npm run remove-demo-windows to remove demo application on Windows systems.
 
-### Run `ng update` @angular/cli and `ng update` @angular/core for new version of angular/cli
+### Update angular/cli
+
+Run `ng update` `@angular/cli` and `ng update` `@angular/core` for new version.
