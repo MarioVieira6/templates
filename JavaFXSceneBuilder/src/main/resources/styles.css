@@ -1,0 +1,11 @@
+.menu {
+	-fx-background-color: gray;
+}
+
+.styleClass {
+	-fx-font-weight: bold;
+}
+
+#styleID {
+	-fx-background-color: lightgray;
+}
