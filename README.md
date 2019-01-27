@@ -3,10 +3,11 @@ some templates to develop your project!
 
 * angular-mdb
 * angular-primeng
-* RESTful-spring
-* RESTful-jersey
+* eclipse-quality
 * JavaFXUI
 * JavaFXSceneBuilder
+* RESTful-spring
+* RESTful-jersey
 * spring-boot-maven
 * spring-boot-gradle
 * template-java
