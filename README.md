@@ -3,7 +3,11 @@ some templates to develop your project!
 
 * RESTful-spring
 * RESTful-jersey
-  
+* JavaFXUI
+* JavaFXSceneBuilder
+
+# RESTful-jersey
+
 To create a new Jersey project with maven execute in your terminal the follows commands:
   
 mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-grizzly2 \
