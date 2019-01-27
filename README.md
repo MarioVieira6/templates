@@ -27,7 +27,8 @@ Note: Change the groupId and artifactId as you want. For more details check http
 
 ## angular-template
 
-### MDB and PrimeNG
+* MDB
+* PrimeNG
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-rc.5.
 
