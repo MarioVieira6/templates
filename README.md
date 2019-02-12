@@ -103,31 +103,31 @@ Run `ng update @angular/cli` and then `ng update @angular/core` for new version.
 
 **# OS generated files #**
 
+._* <br />
 .DS_Store <br />
 .DS_Store? <br />
-._* <br />
-.Spotlight-V100 <br />
 .Trashes <br />
-ehthumbs.db <br />
 Thumbs.db <br />
+ehthumbs.db <br />
+.Spotlight-V100 <br />
 
 **# Java generated files #**
 
-.settings/ <br />
 bin/ <br />
 logs/ <br />
 target/ <br />
+.settings/ <br />
 .springBeans <br />
 .project <br />
 .classpath <br />
 
 **# Java maven files #**
 
-.mvn/wrapper/maven-wrapper.jar <br />
-.mvn/wrapper/maven-wrapper.properties <br />
 mvnw <br />
 mvnw.cmd <br />
 dependency-reduced-pom.xml <br />
+.mvn/wrapper/maven-wrapper.jar <br />
+.mvn/wrapper/maven-wrapper.properties <br />
 
 **# Java gradle files #**
 
