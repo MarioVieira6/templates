@@ -70,4 +70,72 @@ Run `ng update @angular/cli` and then `ng update @angular/core` for new version.
 > * npm run remove-demo-unix to remove demo application on UNIX based systems,
 > * npm run remove-demo-windows to remove demo application on Windows systems.
 
+### .gitignore
+** # Compiled source # **
 
+`*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so`
+
+** # Packages # **
+
+** it's better to unpack these files and commit the raw source **
+** git has its own built in compression methods **
+
+`*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip`
+
+** # Logs and databases # **
+
+`*.log
+*.sql
+*.sqlite`
+
+** # OS generated files # **
+
+`.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db`
+
+** # Java generated files # **
+
+`.settings/
+bin/
+logs/
+target/
+.springBeans
+.project
+.classpath`
+
+** # Java maven files # **
+
+`.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+mvnw
+mvnw.cmd
+dependency-reduced-pom.xml`
+
+** # Java gradle files # **
+
+`.gradle
+/build/
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties`
+
+** # TypeScript generated files # **
+
+`node_modules/
+src/assets/archives/`
