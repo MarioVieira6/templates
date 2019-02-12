@@ -71,71 +71,72 @@ Run `ng update @angular/cli` and then `ng update @angular/core` for new version.
 > * npm run remove-demo-windows to remove demo application on Windows systems.
 
 ### .gitignore
-** # Compiled source # **
 
-`*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so`
+**# Compiled source #**
 
-** # Packages # **
+*.com <br />
+*.class <br />
+*.dll <br />
+*.exe <br />
+*.o <br />
+*.so <br />
 
-** it's better to unpack these files and commit the raw source **
-** git has its own built in compression methods **
+**# Packages #**
 
-`*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip`
+**it's better to unpack these files and commit the raw source** <br />
+**git has its own built in compression methods**
 
-** # Logs and databases # **
+*.7z <br />
+*.dmg <br />
+*.gz <br />
+*.iso <br />
+*.jar <br />
+*.rar <br />
+*.tar <br />
+*.zip
 
-`*.log
-*.sql
-*.sqlite`
+**# Logs and databases #**
 
-** # OS generated files # **
+*.log <br />
+*.sql <br />
+*.sqlite
 
-`.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db`
+**# OS generated files #**
 
-** # Java generated files # **
+.DS_Store <br />
+.DS_Store? <br />
+._* <br />
+.Spotlight-V100 <br />
+.Trashes <br />
+ehthumbs.db <br />
+Thumbs.db <br />
 
-`.settings/
-bin/
-logs/
-target/
-.springBeans
-.project
-.classpath`
+**# Java generated files #**
 
-** # Java maven files # **
+.settings/ <br />
+bin/ <br />
+logs/ <br />
+target/ <br />
+.springBeans <br />
+.project <br />
+.classpath <br />
 
-`.mvn/wrapper/maven-wrapper.jar
-.mvn/wrapper/maven-wrapper.properties
-mvnw
-mvnw.cmd
-dependency-reduced-pom.xml`
+**# Java maven files #**
 
-** # Java gradle files # **
+.mvn/wrapper/maven-wrapper.jar <br />
+.mvn/wrapper/maven-wrapper.properties <br />
+mvnw <br />
+mvnw.cmd <br />
+dependency-reduced-pom.xml <br />
 
-`.gradle
-/build/
-gradle/wrapper/gradle-wrapper.jar
-gradle/wrapper/gradle-wrapper.properties`
+**# Java gradle files #**
 
-** # TypeScript generated files # **
+.gradle <br />
+/build/ <br />
+gradle/wrapper/gradle-wrapper.jar <br />
+gradle/wrapper/gradle-wrapper.properties <br />
 
-`node_modules/
-src/assets/archives/`
+**# TypeScript generated files #**
+
+node_modules/ <br />
+src/assets/archives/ <br />
