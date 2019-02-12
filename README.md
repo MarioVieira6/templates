@@ -1,19 +1,19 @@
 # templates
 some templates to develop your project!
 
-+ angular
++ [angular](README.md#angular-template)
   + angular-mdb
   + angular-primeng
 * [eclipse-quality](README.md#eclipse-quality)
-* JavaFXUI
-* JavaFXSceneBuilder
-* RESTful-spring
-* RESTful-jersey
-* spring-boot-maven
-* spring-boot-gradle
-* template-java
-* template-html
-* template-gitignore
+* [JavaFXUI](README.md#JavaFXUI)
+* [JavaFXSceneBuilder](README.md#eclipse-quality)
+* [RESTful-spring](README.md#RESTful-spring)
+* [RESTful-jersey](README.md#RESTful-jersey)
+* [spring-boot-maven](README.md#spring-boot-maven)
+* [spring-boot-gradle](README.md#spring-boot-gradle)
+* [template-java](README.md#.java)
+* [template-html](README.md#.html)
+* [template-gitignore](README.md#.gitignore)
 
 ## RESTful-jersey
 
@@ -151,4 +151,4 @@ src/assets/archives/ <br />
 
 ## eclipse-quality
 
-![](https://github.com/MarioVieira6/imgs/checkstyle/install_checkstyle.png)
+![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/install_checkstyle.png)
