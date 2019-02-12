@@ -4,7 +4,7 @@ some templates to develop your project!
 + angular
   + angular-mdb
   + angular-primeng
-* eclipse-quality
+* [eclipse-quality](README.md#eclipse-quality)
 * JavaFXUI
 * JavaFXSceneBuilder
 * RESTful-spring
