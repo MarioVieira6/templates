@@ -1,8 +1,9 @@
 # templates
 some templates to develop your project!
 
-* angular-mdb
-* angular-primeng
++ angular
+  + angular-mdb
+  + angular-primeng
 * eclipse-quality
 * JavaFXUI
 * JavaFXSceneBuilder
