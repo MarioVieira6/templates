@@ -15,7 +15,7 @@ some templates to develop your project!
 * template-html
 * template-gitignore
 
-### RESTful-jersey
+## RESTful-jersey
 
 To create a new Jersey project with maven execute in your terminal the follows commands:
   
@@ -26,7 +26,7 @@ mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-grizzly2 \
   
 Note: Change the groupId and artifactId as you want. For more details check [Jersey](https://jersey.github.io/documentation/latest/getting-started.html)
 
-### angular-template
+## angular-template
 
 * MDB
 * PrimeNG
@@ -70,7 +70,15 @@ Run `ng update @angular/cli` and then `ng update @angular/core` for new version.
 > * npm run remove-demo-unix to remove demo application on UNIX based systems,
 > * npm run remove-demo-windows to remove demo application on Windows systems.
 
-### .gitignore
+## .html
+
+Basic template `.html` with support of **HTML5** and **Bootstrap 4.0/jQuery 3.2**.
+
+## .java
+
+It's just a *Java Class* with instructions on how to compile by command line.
+
+## .gitignore
 
 **# Compiled source #**
 
@@ -140,3 +148,7 @@ gradle/wrapper/gradle-wrapper.properties <br />
 
 node_modules/ <br />
 src/assets/archives/ <br />
+
+## eclipse-quality
+
+![](https://github.com/MarioVieira6/imgs/checkstyle/install_checkstyle.png)
