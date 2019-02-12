@@ -11,9 +11,9 @@ some templates to develop your project!
 * [RESTful-jersey](README.md#RESTful-jersey)
 * [spring-boot-maven](README.md#spring-boot-maven)
 * [spring-boot-gradle](README.md#spring-boot-gradle)
-* [template-java](README.md#.java)
-* [template-html](README.md#.html)
-* [template-gitignore](README.md#.gitignore)
+* [template-java](README.md#template-java)
+* [template-html](README.md#template-html)
+* [template-gitignore](README.md#template-gitignore)
 
 ## RESTful-jersey
 
@@ -70,15 +70,15 @@ Run `ng update @angular/cli` and then `ng update @angular/core` for new version.
 > * npm run remove-demo-unix to remove demo application on UNIX based systems,
 > * npm run remove-demo-windows to remove demo application on Windows systems.
 
-## .html
+## template-html
 
 Basic template `.html` with support of **HTML5** and **Bootstrap 4.0/jQuery 3.2**.
 
-## .java
+## template-java
 
 It's just a *Java Class* with instructions on how to compile by command line.
 
-## .gitignore
+## template-gitignore
 
 **# Compiled source #**
 
