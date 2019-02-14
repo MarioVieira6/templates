@@ -151,5 +151,5 @@ src/assets/archives/ <br />
 
 ## eclipse-quality
 
-[![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/install_checkstyle.png "Install")](#)
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/install_checkstyle.png "Install")](#)
 > http_--eclipse-cs.sf.net-update
