@@ -196,7 +196,7 @@ src/assets/archives/ <br />
 
 > Annotations
 >
-> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/annotations.png "Annotations")](#)
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/annotations.jpg "Annotations")](#)
 
 > Blocks
 >
