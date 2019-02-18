@@ -152,5 +152,9 @@ src/assets/archives/ <br />
 
 ## eclipse-quality
 
-[![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/install_checkstyle.png "Install")](#)
-> http_--eclipse-cs.sf.net-update
+> Install Checkstyle - http_--eclipse-cs.sf.net-update
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/install_checkstyle.png "Install")](#)
+
+
+> Eclipse Clean Up - cleanup.xml
+> [![](https://github.com/MarioVieira6/imgs/blob/master/eclipse_cleanup.png "Eclipse Clean Up!")](#)
