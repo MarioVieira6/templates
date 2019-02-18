@@ -5,7 +5,8 @@ To make individual download of the projects, access [DownGit](https://minhaskama
 + [angular](README.md#angular-template)
   + angular-mdb
   + angular-primeng
-* [eclipse-quality](README.md#eclipse-quality)
++ [eclipse-quality](README.md#eclipse-quality)
+  + [Checkstyle](README.md#Checkstyle)
 * [JavaFXUI](README.md#JavaFXUI)
 * [JavaFXSceneBuilder](README.md#eclipse-quality)
 * [RESTful-spring](README.md#RESTful-spring)
@@ -188,9 +189,9 @@ src/assets/archives/ <br />
 >
 > [![](https://github.com/MarioVieira6/imgs/blob/master/eclipse_jsformatter.png "Eclipse JS Formatter!")](#)
 
-**Checkstyle**
+#### Checkstyle
 
-> Install Checkstyle - http_--eclipse-cs.sf.net-update
+> Install Checkstyle - http://eclipse-cs.sf.net/update
 >
 > [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/install_checkstyle.png "Install")](#)
 
