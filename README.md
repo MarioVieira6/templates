@@ -191,7 +191,7 @@ src/assets/archives/ <br />
 
 #### Checkstyle
 
-> Install Checkstyle - http://eclipse-cs.sf.net/update
+> Install Checkstyle - `http://eclipse-cs.sf.net/update`
 >
 > [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/install_checkstyle.png "Install")](#)
 
