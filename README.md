@@ -1,5 +1,6 @@
 # templates
-some templates to develop your project! To make individual download of the projects access [DownGit](https://minhaskamal.github.io/DownGit/#/home) and paste the link of the specific template what you choose.
+Some templates to develop your project! <br />
+To make individual download of the projects, access [DownGit](https://minhaskamal.github.io/DownGit/#/home) and paste the link of the specific template what you choose.
 
 + [angular](README.md#angular-template)
   + angular-mdb
