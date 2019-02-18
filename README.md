@@ -169,15 +169,15 @@ src/assets/archives/ <br />
 >
 > [![](https://github.com/MarioVieira6/imgs/blob/master/eclipse_imports.png "Eclipse Imports!")](#)
 
-> Eclipse Java Temṕlate - javatemplate.xml
+> Eclipse Java Template - javatemplate.xml
 >
 > [![](https://github.com/MarioVieira6/imgs/blob/master/eclipse_javatemplate.png "Eclipse Java Template!")](#)
 
-> Eclipse HTML Temṕlate - htmltemplate.xml
+> Eclipse HTML Template - htmltemplate.xml
 >
 > [![](https://github.com/MarioVieira6/imgs/blob/master/eclipse_htmltemplate.png "Eclipse HTML Template!")](#)
 
-> Eclipse JSP Temṕlate - jsptemplate.xml
+> Eclipse JSP Template - jsptemplate.xml
 >
 > [![](https://github.com/MarioVieira6/imgs/blob/master/eclipse_jsptemplate.png "Eclipse JSP Template!")](#)
 
@@ -191,9 +191,11 @@ src/assets/archives/ <br />
 
 #### Checkstyle
 
-> Install Checkstyle - `http://eclipse-cs.sf.net/update`
+> Install/Config/Set Checkstyle - `http://eclipse-cs.sf.net/update`
 >
 > [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/install_checkstyle.png "Install")](#)
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/config_checkstyle.png "Configuration")](#)
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/set_checkstyle.png "Set As Default")](#)
 
 > Annotations
 >
