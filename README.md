@@ -155,7 +155,7 @@ src/assets/archives/ <br />
 
 > Eclipse Clean Up - cleanup.xml
 >
-> [![](https://github.com/MarioVieira6/imgs/blob/master/eclipse_cleanup.png "Eclipse Clean Up!")](#)
+> [![IMG](https://github.com/MarioVieira6/imgs/blob/master/eclipse_cleanup.png "Eclipse Clean Up!")](#)
 
 > Eclipse Code Template - codetemplate.xml
 >
