@@ -152,9 +152,44 @@ src/assets/archives/ <br />
 
 ## eclipse-quality
 
-> Install Checkstyle - http_--eclipse-cs.sf.net-update
-> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/install_checkstyle.png "Install")](#)
-
-
 > Eclipse Clean Up - cleanup.xml
+>
 > [![](https://github.com/MarioVieira6/imgs/blob/master/eclipse_cleanup.png "Eclipse Clean Up!")](#)
+
+> Eclipse Code Template - codetemplate.xml
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/eclipse_codetemplate.png "Eclipse Code Template!")](#)
+
+> Eclipse Java Formatter - formatter.xml
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/eclipse_formatter.png "Eclipse Java Formatter!")](#)
+
+> Eclipse Imports - imports.importorder.xml
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/eclipse_imports.png "Eclipse Imports!")](#)
+
+> Eclipse Java Temṕlate - javatemplate.xml
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/eclipse_javatemplate.png "Eclipse Java Template!")](#)
+
+> Eclipse HTML Temṕlate - htmltemplate.xml
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/eclipse_htmltemplate.png "Eclipse HTML Template!")](#)
+
+> Eclipse JSP Temṕlate - jsptemplate.xml
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/eclipse_jsptemplate.png "Eclipse JSP Template!")](#)
+
+> Eclipse JS Clean Up - javascriptcleanup.xml
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/eclipse_jscleanup.png "Eclipse JS Clean Up!")](#)
+
+> Eclipse JS Formatter - javascriptformatter.xml
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/eclipse_jsformatter.png "Eclipse JS Formatter!")](#)
+
+**Checkstyle**
+
+> Install Checkstyle - http_--eclipse-cs.sf.net-update
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/install_checkstyle.png "Install")](#)
