@@ -6,7 +6,7 @@ To make individual download of the projects, access [DownGit](https://minhaskama
   + [angular-mdb](https://github.com/MarioVieira6/templates/tree/master/angular-mdb)
   + [angular-primeng](https://github.com/MarioVieira6/templates/tree/master/angular-primeng)
 + [eclipse-quality](README.md#eclipse-quality)
-  + [Checkstyle](README.md#Checkstyle)
+  + [checkstyle](README.md#Checkstyle)
 * [JavaFXUI](README.md#JavaFXUI)
 * [JavaFXSceneBuilder](README.md#eclipse-quality)
 * [RESTful-spring](README.md#RESTful-spring)
