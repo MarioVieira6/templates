@@ -3,8 +3,8 @@ Some templates to develop your project! <br />
 To make individual download of the projects, access [DownGit](https://minhaskamal.github.io/DownGit/#/home) and paste the link of the specific template what you choose.
 
 + [angular](README.md#angular-template)
-  + angular-mdb
-  + angular-primeng
+  + [angular-mdb](https://github.com/MarioVieira6/templates/tree/master/angular-mdb)
+  + [angular-primeng](https://github.com/MarioVieira6/templates/tree/master/angular-primeng)
 + [eclipse-quality](README.md#eclipse-quality)
   + [Checkstyle](README.md#Checkstyle)
 * [JavaFXUI](README.md#JavaFXUI)
