@@ -193,3 +193,61 @@ src/assets/archives/ <br />
 > Install Checkstyle - http_--eclipse-cs.sf.net-update
 >
 > [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/install_checkstyle.png "Install")](#)
+
+> Annotations
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/annotations.png "Annotations")](#)
+
+> Blocks
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/blocks.png "Blocks")](#)
+
+> Class Design
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/class_design.png "Class Design")](#)
+
+> Code Problems
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/code_problems_pt1.png "Code Problems (Pt.1)")](#)
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/code_problems_pt2.png "Code Problems (Pt.2)")](#)
+
+> Imports
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/imports.png "Imports")](#)
+
+> Javadoc Comments
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/javadoc_comments.png "Java Comments")](#)
+
+> Metrics
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/metrics.png "Metrics")](#)
+
+> Miscellaneous
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/miscellaneous.png "Miscellaneous")](#)
+
+> Modifiers
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/modifiers.png "Modifiers")](#)
+
+> Naming Conventions
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/naming_conventions_pt1.png "Naming Conventions (Pt.1)")](#)
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/naming_conventions_pt2.png "Naming Conventions (Pt.2)")](#)
+
+> Other
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/other.png "Other")](#)
+
+> SevNTU
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/SevNTU_checks.png "SevNTU")](#)
+
+> Size Violations
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/size_violations.png "Size Violations")](#)
+
+> Whitespace
+>
+> [![](https://github.com/MarioVieira6/imgs/blob/master/checkstyle/whitespace.png "Whitespace")](#)
