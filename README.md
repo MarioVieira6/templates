@@ -7,8 +7,9 @@ To make individual download of the projects, access [DownGit](https://minhaskama
   + [angular-primeng](https://github.com/MarioVieira6/templates/tree/master/angular-primeng)
 + [eclipse-quality](README.md#eclipse-quality)
   + [checkstyle](README.md#Checkstyle)
-* [JavaFXUI](README.md#JavaFXUI)
-* [JavaFXSceneBuilder](README.md#eclipse-quality)
++ [JavaFX](README.md#JavaFX)
+  + [UI](README.md#UI)
+  + [SceneBuilder](README.md#SceneBuilder)
 * [RESTful-spring](README.md#RESTful-spring)
 * [RESTful-jersey](README.md#RESTful-jersey)
 * [spring-boot-maven](README.md#spring-boot-maven)
@@ -71,6 +72,22 @@ Run `ng update @angular/cli` and then `ng update @angular/core` for new version.
 > Type one of the below commands to remove demo application from this project:
 > * npm run remove-demo-unix to remove demo application on UNIX based systems,
 > * npm run remove-demo-windows to remove demo application on Windows systems.
+
+## JavaFX
+
+#### UI
+
+> Basic example using some UI controls.
+
+#### SceneBuilder
+
+* Controller
+* Model
+* Screen
+* Service
+* Task
+* View
+* CSS
 
 ## template-html
 
