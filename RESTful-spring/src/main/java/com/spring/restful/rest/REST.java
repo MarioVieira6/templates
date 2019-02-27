@@ -1,12 +1,3 @@
-/*
- *  COPYRIGHT FINCH Solucoes (www.finchsolucoes.com.br)
- *  TODOS OS DIREITOS RESERVADOS
- *  PROPRIEDADE CONFIDENCIAL NAO PUBLICADA DA FINCH
- *
- *  criado em Apr 19, 2018
- *
- */
-
 package com.spring.restful.rest;
 
 import java.util.Date;
