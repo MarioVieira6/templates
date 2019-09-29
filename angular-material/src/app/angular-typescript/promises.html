@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Promises</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<h2>Result in the console!</h2>
+    <script>
+        const response = fetch('http://api.postmon.com.br/v1/cep/01310932');
+
+        response.then(data => data.json())
+            .then(data => console.log(data))
+            .catch(error => console.log(error));
+    </script>	
+</body>
+</html>
