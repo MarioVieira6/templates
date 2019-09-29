@@ -17,6 +17,7 @@ In order to make individual download of the projects, access [DownGit](https://m
 * [spring-boot-gradle](README.md#spring-boot-gradle)
 * [template-java](README.md#template-java)
 * [template-html](README.md#template-html)
+* [template-css](README.md#template-css)
 * [template-gitignore](README.md#template-gitignore)
 
 ## RESTful-jersey
@@ -94,6 +95,10 @@ Run `ng update @angular/cli` and then `ng update @angular/core` for new version.
 
 Basic template `.html` with support of **HTML5** and **Bootstrap 4.0/jQuery 3.2**. <br />
 [MAXCDN](https://cdnjs.com) - The best **FOSS CDN** for web related libraries to speed up your websites.
+
+## template-css
+
+Template `.css` with support of **CSS3**. <br />
 
 ## template-java
 
