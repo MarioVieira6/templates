@@ -92,8 +92,8 @@ Run `ng update @angular/cli` and then `ng update @angular/core` for new version.
 
 ## template-html
 
-Basic template `.html` with support of **HTML5** and **Bootstrap 4.0/jQuery 3.2**.
-[MAXCDN](https://cdnjs.com) - The best FOSS CDN for web related libraries to speed up your websites.
+Basic template `.html` with support of **HTML5** and **Bootstrap 4.0/jQuery 3.2**. <br />
+[MAXCDN](https://cdnjs.com) - The best **FOSS CDN** for web related libraries to speed up your websites.
 
 ## template-java
 
