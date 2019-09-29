@@ -1,0 +1,713 @@
+/*
+  1 - No CSS existem seletores por tipo de elemento, id e classes.
+
+  Tipo: H1 { ... }
+  ID: #id { ... }
+  Classe: .className { ... }
+*/
+
+
+/*
+  2 - Agrupamentos no CSS é uma forma de compartilhar propriedades entre dois ou mais seletores diferentes.
+
+  .example1, example2 {
+    ...
+    Ambas as propriedades estarão disponíveis nos seletores acima.
+  }
+*/
+
+
+/*
+  3 - Seletores descendentes é uma forma especifica de acessar elementos seguindo uma hierarquia.
+
+  .featured mark {
+    ...
+    Essas propriedades funcionaram apenas para os elementos MARK que forem descendentes de um elemento com a classe "featured".
+  }
+*/
+
+
+/*
+  4 - Seletores de filho direto é uma forma de aplicar propriedades especificas diretamente para um elemento que é filho direto do
+  elemento especificado.
+
+  header > p {
+    ...
+    As propriedades serão aplicadas apenas para os elementos filhos P que estiverem dentro do elemento pai HEADER.
+  }
+*/
+
+
+/* Aplica cor vermelha e fonte Arial em todos os elementos H1. */
+
+h1 {
+    font-family: Arial;
+}
+
+
+/* Aplica cor verde para todos os elementos STRONG. */
+
+strong {
+    color: green;
+    font-family: Arial;
+}
+
+
+/* Aplica a cor azul em todos os elementos P. */
+
+p {
+    color: red;
+}
+
+
+/* Aplica propriedades no elemento com o id "title". */
+
+#title {
+    color: yellow;
+}
+
+
+/* Aplica as propriedades no elemento com class "featured". */
+
+.featured {
+    color: lightgrey;
+}
+
+
+/* 5 - Tipos diferentes de cores */
+
+
+/* Nome da cor: */
+
+.color1 {
+    background-color: blue;
+    color: white;
+}
+
+
+/* RGB color: */
+
+.color2 {
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+
+/* Hexadecimal: */
+
+.color3 {
+    background-color: #FF00C8;
+    color: #DDFF00;
+    /* http://bit.ly/dec2hex */
+    /* http://www.rapidtables.com/convert/color/rgb-to-hex.htm */
+}
+
+
+/* 6 - Formatando texto */
+
+.text {
+    color: #F00;
+    font-size: 24px;
+    /* Tamanho da fonte em Pixels. */
+    font-family: Palatino, serif;
+    /* Nome da fonte. */
+    font-style: italic;
+    /* Estilo da fonte (Italico, Normal ou Obliquo). */
+    font-weight: bold;
+    /* Destaque para a fonte (Ex: Negrito). */
+    /* font: italic bold 24px Palatino, serif (Varias propriedades de fontes em uma linha). */
+    text-decoration: line-through;
+    /* Decorando o texto. */
+    text-align: justify;
+    /* Alinhamento do texto em relação ao documento ou bloco. */
+}
+
+
+/*
+    7 - Propriedade display
+  
+    display: inline;
+      Mantém os elementos em uma única linha. Não permite alteração de altura e largura.
+    display: block;
+      Mantém os elementos um embaixo do outro. Permite qualquer alteração de estilo.
+    display: inline-block;
+      Os elementos se comportam como "inline", mas permite alteração de altura e largura.
+    display: none;
+      O elemento é ocultado na página.
+  */
+
+
+/* 8 - Bordas */
+
+a {
+    border-width: thin;
+    /* Define a largura da borda. */
+    border-color: red;
+    /* Define a cor da borda. */
+    border-style: solid;
+    /* Define o estilo da borda. */
+    /*
+      ShortHand é um atalho do CSS para colocar várias propriedades do mesmo tipo em uma única linha:
+      border: thin blue solid
+    */
+    /* border-bottom: 5px dotted #0F0; Propriedades da borda de baixo. */
+    /* border-top: 5px dashed #0F0; Propriedades da borda de cima. */
+    /* border-right: 5px solid black; Propriedades da borda da direita. */
+    /* border-left: 5px thin red; Propriedades da borda da esquerda. */
+    border-radius: 7px;
+    /* Propriedade de arrendondamento de borda. */
+    /* border-top-left-radius: 10px; Arredondamento da parte superior esquerda. */
+    /* border-top-right-radius: 20px; Arredondamento da parte superior direita. */
+    /* border-bottom-left-radius: 30px; Arredondamento da parte inferior esquerda. */
+    /* border-bottom-right-radius: 40px; Arredondamento da parte inferior direita. */
+}
+
+
+/*
+    9 - Propriedade padding especifica o espaçamento interno do elemento.
+  
+    padding: 20px -> Adiciona um espaçamento de 20px em todos os lados do elemento.
+    padding-left: 20px -> Adiciona um espaçamento de 20px apenas no lado esquerdo do elemento.
+    padding: 10px 20px 0px 5px -> Através do ShortHand é possível especificar um espaçamento para cada lado do elemento em uma linha.
+      Para esta regra, devemos seguir o padrão TROBLE para as seguinte ordem: T-top, R-right, O-nulo, B-bottom, L-left, E-nulo.
+  */
+
+
+/*
+    10 - Propriedade margin especifica o espaçamento externo de um elemento.
+  
+    margin: 20px -> Adiciona um espaçamento de 20px em todos os lados do elemento.
+    margin-left: 20px -> Adiciona um espaçamento de 20px apenas no lado esquerdo do elemento.
+    margin: 10px 20px 0px 5px -> Através do ShortHand é possível especificar um espaçamento para cada lado do elemento em uma linha.
+      Para esta regra, devemos seguir o padrão TROBLE para as seguinte ordem: T-top, R-right, O-nulo, B-bottom, L-left, E-nulo.
+      Quando forem colocados apenas dois valores, devemos seguir as ordens: Top-Bottom e Right-Left.
+      O valor "auto" define automaticamento um valor para a margem, no caso a metade do total do valor que um elemento pode comportar.
+  
+    Por padrão o elemento body possui margin de 8px.
+  */
+
+article,
+footer,
+section {
+    margin: 15px 0 15px 0;
+}
+
+
+/*
+    11 - CSS Box model
+  
+    box-sizing: content-box -> Valor padrão que mantém o tamanho da largura da caixa somando com o tamanho da borda e do espaçamento interno.
+    box-sizing: border-box -> Define o tamanho da caixa subitraindo a largura com a borda mais o espaçamento interno.
+  */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* 12 - Estilo para lista não-ordenada */
+
+ul.menu {
+    list-style: none;
+    /* Remove os marcadores da lista. */
+    padding: 0;
+    margin: 0;
+}
+
+ul.menu>li {
+    display: inline-block;
+    border: 3px solid red;
+    padding: 5px;
+}
+
+
+/* 13 - Elementos flutuantes */
+
+.float-article {
+    background-color: green;
+    font-size: 20px;
+}
+
+.column1,
+.column2 {
+    background-color: #CCC;
+    color: black;
+    width: 48%;
+}
+
+.column1 {
+    float: left;
+    /* Alinha o elemento a esquerda. */
+}
+
+.column2 {
+    float: right;
+    /* Alinha o elemento a direita. */
+}
+
+
+/*
+    14 - Pseudo Elementos e Pseudo Classes
+  
+    Através dos parâmetro :: ou : é possível determinar algumas funcionalidades especificas.
+    Quando se usa :: estamos usando pseudo elementos e quando se usa : estamos usando pseudo classes.
+  
+    Ex: p::first-letter {
+          ...
+          Pseudo Elemento
+        }
+  
+        p:last-of-type {
+          ...
+          Pseudo Classe
+        }
+  */
+
+.float-article>p::first-letter {
+    font-size: 60px;
+    color: red;
+}
+
+.float-article>h2::before {
+    content: "Titulo: ";
+}
+
+.float-article>h2::after {
+    content: " - Artigo";
+}
+
+.float-article::after {
+    content: "";
+    display: block;
+    clear: both;
+    /* Determina um fim para os elementos flutuantes. */
+}
+
+
+/*
+    15 - Reset CSS são propriedades que removem todos os estilos css da página.
+  
+    O objetivo é remover todos os estilos padrões dos diferentes navegadores para que o desenvolvedor possa desenvolver
+    seus próprios estilos.
+  
+    bit.ly/resetcss
+  */
+
+
+/*
+    16 - Normalize CSS são propriedades que padronizam os estilos dos elementos em todos os navegadores.
+  
+    bit.ly/normalizecss
+  */
+
+
+/*
+    17 - Unidades de medidas
+  
+    px é uma unidade de medida que quando especificada, não poderá ser alterada pelo usuário: font-size: 12px
+    % é uma unidade de medida relativa ao elemento pai: font-size: 100%
+    em é uma unidade de medida que define a quantidade de vezes que o tamanho do elemento pai será multiplicada:
+      font-size: 2em (2x o tamanho da fonte do elemento pai)
+    rem é uma unidade de medida que define a quantidade de vezes que o tamanho do documento será multiplicada:
+      font-size: 2rem (2x o tamanho da fonte do navegador - 16px [tamanho padrão] * 2rem = 32px)
+  */
+
+.box::before {
+    font-size: 62.5%/* 10px / 16px (padrão do navegador) * 100% = 62.5% (10px - em relação à fonte padrão do navegador) */
+}
+
+.box {
+    width: 50%;
+    /* A largura será calculado em relação ao tamanho do elemento pai. */
+    padding: 1%;
+    /* A margem interna será calculada em relação ao tamanho do elemento pai. */
+    font-size: 100%;
+    /* O tamanho da fonte será calculado em relação ao tamanho da fonte do elemento pai. */
+    background-color: #CCC;
+    border: 5px solid black;
+    text-align: justify;
+}
+
+.box p {
+    color: black;
+}
+
+
+/*
+    18 - Layouts
+  
+    Layout fixo são elementos com tamanhos fixos definidos em pixels.
+    Layout fluído são elementos com tamanhos que se adaptam ao tamanho do dispositivo.
+  */
+
+
+/*
+    19 - Media query e layout responsivo
+  
+    Através da sintaxe @media é possível aplicar regras especificas para os estilos da página.
+  
+    (min-width: 800px) é um breakpoint, no caso, enquanto o navegador tiver um mínimo de 800px a regra será aplicada.
+  
+    Mobile First é um conceito aplicado em projetos web onde o foco inicial da arquitetura e desenvolvimento é direcionado
+    aos dispositivos móveis e em seguida para os desktops.
+  */
+
+@media (min-width: 800px)
+/* Breakpoint */
+
+{
+    .box {
+        /* Seletor */
+        background-color: green;
+        /* ... */
+    }
+    /*.float-article {
+      color: green;
+    } */
+}
+
+
+/*
+    20 - GRIDS
+  
+    Sistema de GRIDS é uma técnica para criação de estrutura de layout. Ele permite que o conteúdo
+    seja empilhado verticalmente ou colocado na horizontal. O sistema de GRIDS trabalha com 12 colunas na tela
+  */
+
+.container,
+.container-fluid {
+    background-color: #CCC;
+}
+
+.row h2 {
+    padding: 20px 0;
+    margin: 0;
+}
+
+
+/*
+    21 - Especificidade CSS
+  
+    É a forma que o navegador decide qual propriedade é mais específica para ser aplicada (ID > Classe > Tag).
+  
+    * Regras com seletores iguais com valores diferentes, a última regra prevalece.
+    * Seletor de classe é mais específico do que o seletor de tag, por isso as regras do seletor de classe prevalecem.
+    * Seletor por id é mais específico do que o seletor de classe, por isso as regras do seletor de id prevalecem.
+  
+    Calculo de notas
+  
+    ID - Classe - Tag
+     1        1     1
+  
+    #id { 100 } -> Possui um seletor por id (nota 1), não possui seletor por classe (nota 0), não possui seletor por tag (nota 0) = 100
+    .classe { 010 } -> Não possui um seletor por id (nota 0), possui seletor por classe (nota 1), não possui seletor por tag (nota 0) = 010
+    html { 001 } -> Não possui um seletor por id (nota 1), não possui seletor por classe (nota 0), possui seletor por tag (nota 1) = 001
+  
+    Resultado = O seletor por id possui nota 100, por isso é o elemento mais específico cuja as propriedades prevalecem.
+  
+    Outros exemplos
+  
+    header #cabecalho .logo { 111 }
+    #cabecalho .logo { 110 }
+    header .logo { 011 }
+    .logo { 010 }
+  
+    A regra [header #cabecalho .logo] tem uma nota maior, por isso suas regras prevalecem diante das outras.
+  
+    !important
+  
+    Qualquer propriedade com o atributo !important prevalece.
+  
+    header #cabecalho .logo {
+      color: black;
+    }
+  
+    .logo {
+      color: green !importante;
+    }
+  
+    A regra [header #cabecalho .logo] tem uma nota maior, porém a propriedade "color" da classe [.logo]
+    está anotado com o atributo "!important", por isso o atributo "color" da regra [.logo] é mais específica.
+  
+    style
+  
+    Estilos "inline" são mais específicos, pois são atribuídos diretamento no elemento.
+  
+    header #cabecalho .logo {
+      color: black;
+    }
+  
+    <div id="title" style="color: green;">
+      <h1>Especificidade CSS</h1>
+    </div>
+  
+    A regra [header #cabecalho .logo] tem uma nota maior, porém o estilo "inline" aplicado diretamente no elemento prevalece.
+  */
+
+
+/*
+    22 - Metodologia BEM (Block Element Modifier)
+  
+    É uma metodologia que ajuda você a criar componentes reutilizáveis ​​e compartilhamento de código no desenvolvimento de front-end.
+  
+    Block -> São partes de um layout que pode ser colocado em qualquer lugar da página e possa ser trabalhado de forma independente.
+    Element -> O elemento é uma parte do bloco. Um elemento depende do bloco.
+    Modifier -> È uma marcação que se aplica no bloco ou no elemento com objetivo de mudar a aparência, o estado ou o comportamento.
+  
+    Exemplo
+  
+    <article> -> Bloco
+        <h2>Autônomo</h2> -> Elemento cabeçalho
+        <div>R$59/mês</div> -> Elemento preço
+        <ul> -> Elemento caracteristicas
+          <li>Até <strong>2 usuários</strong></li>
+          <li><strong>500MB</strong> de armazenamento</li>
+          <li>Lançamentos ilimitados</li>
+          <li>Acesso seguro</li>
+          <li>Sem fidelidade</li>
+        </ul>
+        <footer> -> Elemento rodapé
+          <a href="assine.html" class="button">Assinar</a> -> Bloco
+        </footer>
+    </article>
+  
+    * Na convenção de codificação do BEM, todos os códigos CSS devem ser criados em classes.
+    * Para criar uma classe para um bloco, o nome da classe deve ter sentido com o conteúdo do bloco.
+    * Para criar uma classe para um elemento, o nome da classe dever seguir com o prefixo do bloco seguido de dois underscores.
+    * Prar criar uma classe para um modificador, o nome da classe dever seguir com o prefixo do bloco seguido de dois underscores
+      e com o sufixo de dois hífens seguido do nome do modificador.
+  
+    A convenção do BEM não permite que seja criado mais de uma hierarquia de nomenclatura,
+      caso haja um elemento dentro de outro em um bloco.
+  
+    Para mais detalhes segue os exemplos abaixo
+  */
+
+
+/*-----------------------\*
+    CONTEÚDO - Bloco
+  \*-----------------------*/
+
+.content {
+    background-color: #ccc;
+    padding: 20px;
+}
+
+
+/*-----------------------\*
+    RODAPÉ - Bloco
+  \*-----------------------*/
+
+.footer {
+    background-color: yellow;
+    padding: 20px;
+}
+
+
+/*-----------------------\*
+    PORTFOLIO - Bloco
+  \*-----------------------*/
+
+.portfolio {
+    font-size: 32px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/*
+    .portfolio--best-seller - representa um modificador
+    .portfolio__course - representa um elemento
+  */
+
+.portfolio--best-seller .portfolio__course {
+    background-color: green;
+}
+
+
+/*
+    Convenção para nomear a classe de um Elemento
+  
+    .portfolio - A classe de um bloco
+    .portfolio__course - A classe de um elemento dentro do bloco portfolio
+  */
+
+.portfolio__course {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.portfolio__course>a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+
+/*
+    Convenção para nomear a classe de um Modificador
+  
+    .portfolio - A classe de um bloco
+    .portfolio__course - A classe de um elemento dentro do bloco portfolio
+    .portfolio__course--new - A classe de um modificador
+  */
+
+.portfolio__course--new::after {
+    content: "Novo";
+    display: block;
+    font-size: 24px;
+    margin: 0 20%;
+    margin-top: 30px;
+    background-color: yellow;
+}
+
+
+/*-----------------------\*
+    USUARIOS - Bloco
+  \*-----------------------*/
+
+.users {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.users>li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.users>li a {
+    color: green;
+}
+
+
+/*
+    Convenção para nomear a classe de um Modificador
+  
+    .users - A classe de um bloco
+    .users__name--new - A classe de um modificador
+  */
+
+.users__name--new::after {
+    content: " (Novo)";
+}
+
+
+/*
+    23 - CSS Guidelines
+  
+    São guias para escrever um códgio CSS mais organizado.
+  
+    cssguidelin.es
+  */
+
+
+/*
+    24 - Posicionamento
+  
+    position:
+      static -> Posicionamento padrão de todos os elementos adicionados no documento HTML.
+      fixed -> Posiciona um elemento de forma fixa em relação à viewport.
+      relative -> Posiciona um elemento de forma relativa ao local que está.
+      absolute -> Posiciona um elemento de forma relativa à viewport ou relativo ao primeiro elemento pai que possuir o posicionamento relativo.
+        top -> Define o posicionamento superior do elemento fixo.
+        right -> Define o posicionamento da direita do elemento fixo.
+        left -> Define o posicionamento da esquerda do elemento fixo.
+        bottom -> Define o posicionamento inferior do elemento fixo.
+        z-index -> Define a prioridade do elemento fixo. Com o valor 1 ou superior o elemento se posicionara sempre na frente dos outros elementos.
+  */
+
+.box-relative-1 {
+    background-color: red;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    width: 300px;
+    height: 300px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.box-relative-2 {
+    background-color: yellow;
+    position: relative;
+    top: -20px;
+    left: -20px;
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.box-absolute-1 {
+    background-color: green;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    width: 300px;
+    height: 300px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.box-absolute-2 {
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+/*
+    Estilizando tabelas
+  */
+
+.table {
+    width: 100%;
+    /* [border-collapse: collapse] define o espaçamento entre as bordas das colunas da tabela. O valor padrão é "separate". */
+    border-collapse: collapse;
+}
+
+.table td,
+.table th {
+    padding: 15px 10px;
+    border: 1px solid #CCC;
+}
+
+.table th {
+    background-color: #ECECEC;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+/* :nth-child(even) Seleciona todas as linhas pares da tabela para aplicar o estilo. */
+
+.table tr:nth-child(even) {
+    background-color: #F7F7F7;
+}
+
+.table tr:hover {
+    background-color: #FAFFCC;
+}

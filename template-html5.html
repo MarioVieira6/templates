@@ -1,0 +1,388 @@
+<!-- A semântica é o significado de cada elemento HTML. -->
+<!-- DOCTYPE é uma instrução que define a versão do HTML usado na página. -->
+<!DOCTYPE html>
+<!-- A tag HTML simboliza um documento HTML.-->
+<html lang="pt-BR">
+    <!-- HEAD é responsável por definir valores que não serão visíveis na página HTML. -->
+
+    <head>
+        <!-- META é responsável através dos atributos de definir configurações para o browser. -->
+        <meta charset="utf-8">
+        <!-- Para trabalhar com designs resposivos é necessário definir as seguintes informações na tag META. -->
+        <!-- viewport é a área visível do usuário. O tamanho varia de acordo com o tamanho do dispositivo. -->
+        <!-- content="width=device-width define que a largura da página é igual a largura do dispositivo. -->
+        <!-- content="initial-scale=1" mantém o acesso aos navegadores sem ZOOM. -->
+        <!-- Essas propriedades permitem que os elementos se adaptem à largura do dispositivo. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- TITLE define o titulo da página. -->
+        <title>HTML5</title>
+        <!-- LINK pode ser usado para referenciar um arquivo externo de css. -->
+        <!-- Reset CSS -->
+        <link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" crossorigin="anonymous">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!-- Define os estilos da página -->
+        <style type="text/css">
+            #title {
+                color: yellow;
+            }
+            
+            .featured {
+                color: lightgrey;
+            }
+            
+            .color1 {
+                background-color: blue;
+                color: white;
+            }
+            
+            .color2 {
+                background-color: rgb(255, 0, 0);
+                color: rgb(0, 0, 0);
+            }
+            
+            .color3 {
+                background-color: #FF00C8;
+                color: #DDFF00;
+                /* http://bit.ly/dec2hex */
+                /* http://www.rapidtables.com/convert/color/rgb-to-hex.htm */
+            }
+            
+            .text {
+                color: #F00;
+                font-size: 24px;
+                font-family: Palatino, serif;
+                font-style: italic;
+                font-weight: bold;
+                text-decoration: line-through;
+                text-align: justify;
+            }
+            
+            ul.menu {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+            
+            ul.menu>li {
+                display: inline-block;
+                border: 3px solid red;
+                padding: 5px;
+            }
+            
+            .table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            
+            .table td,
+            .table th {
+                padding: 15px 10px;
+                border: 1px solid #CCC;
+            }
+            
+            .table th {
+                background-color: #ECECEC;
+                font-size: 1.1em;
+                font-weight: bold;
+                text-align: left;
+            }
+            
+            .table tr:nth-child(even) {
+                background-color: #F7F7F7;
+            }
+            
+            .table tr:hover {
+                background-color: #FAFFCC;
+            }
+            
+            .float-article {
+                background-color: green;
+                font-size: 20px;
+            }
+            
+            .column1,
+            .column2 {
+                background-color: #CCC;
+                color: black;
+                width: 48%;
+            }
+            
+            .column1 {
+                float: left;
+            }
+            
+            .column2 {
+                float: right;
+            }
+            
+            .float-article>p::first-letter {
+                font-size: 60px;
+                color: red;
+            }
+            
+            .float-article>h2::before {
+                content: "Titulo: ";
+            }
+            
+            .float-article>h2::after {
+                content: " - Artigo";
+            }
+            
+            .float-article::after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+            
+            .box::before {
+                font-size: 62.5%;
+            }
+            
+            .box {
+                width: 50%;
+                padding: 1%;
+                font-size: 100%;
+                background-color: #CCC;
+                border: 5px solid black;
+                text-align: justify;
+            }
+            
+            .box p {
+                color: black;
+            }
+            
+            @media (min-width: 800px) {
+                .box {
+                    background-color: green;
+                }
+            }
+            
+            .box-relative-1 {
+                background-color: red;
+                position: relative;
+                top: 30px;
+                left: 30px;
+                width: 300px;
+                height: 300px;
+                font-size: 20px;
+                font-weight: 300;
+                margin-top: 20px;
+            }
+            
+            .box-relative-2 {
+                background-color: yellow;
+                position: relative;
+                top: -20px;
+                left: -20px;
+                width: 150px;
+                height: 150px;
+                font-size: 20px;
+                font-weight: 300;
+            }
+            
+            .box-absolute-1 {
+                background-color: green;
+                position: relative;
+                top: 30px;
+                left: 30px;
+                width: 300px;
+                height: 300px;
+                font-size: 20px;
+                font-weight: 300;
+            }
+            
+            .box-absolute-2 {
+                background-color: orange;
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 150px;
+                height: 150px;
+                font-size: 20px;
+                font-weight: 300;
+            }
+        </style>
+    </head>
+    <!-- BODY define o todo conteúdo dentro do documento HTML. -->
+
+    <body>
+        <!-- DIV é um container genérico. -->
+        <!-- HEADER define na semântica do HTML5 como sendo um cabeçalho. -->
+        <header>
+            <p class="featured">Estrutura HTML5
+                <p>
+        </header>
+
+        <!-- ARTICLE define na semântica do HTML5 como sendo um article. -->
+        <article>
+            <header>
+                <!-- As tags H1 à H6 definem o conteúdo como subtitulos. -->
+                <h1 id="title">Do more development, faster</h1>
+
+                <!-- IMG adiciona uma imagem na página. -->
+                <!-- SRC define o caminho da imagem, tanto em pasta como em url -->
+                <!-- WIDTH define a largura da imagem. -->
+                <!-- HEIGHT define a altura da imagem. -->
+                <!-- ALT descreve a imagem. Otimiza mecanismos de buscas. -->
+                <img src="https://unsplash.it/1280/720?random" width="400" height="200" alt="LoremPixel">
+            </header>
+
+            <!-- P adiciona um parágrafo no conteúdo. -->
+            <!-- BR define uma quebra de linha. Está tag não tem conteúdo. -->
+            <!-- EM da uma ênfase ao conteúdo. -->
+            <!-- STRONG define um conteúdo com sendo mais importante. São conteúdos chaves que serão destacados na pesquisa do seu site, por exemplo. -->
+            <!-- MARK define uma relevãncia para um determinado contexto. Útil para filtros de pesquisa. -->
+            <p class="featured">
+                Stop waiting for build and <mark>deploy</mark> to make code changes. <br>
+                <strong>Write code and refresh your browser, done</strong>.
+            </p>
+
+            <h2>Works with all Java applications. Desktop, web, services, and enterprise.</h2>
+
+            <p class="text">
+                Reload changes on <em>local servers</em>, remote servers and in the cloud.
+            </p>
+
+            <!-- A tag ANCORA definida por <a> adiciona um hyperlink para acesso de outro página -->
+            <!-- HREF define o link que será acessado. Pode ser adicionado uma url, arquivo html de uma pasta, aplicativo de e-mail ou protocolo FTP. -->
+            <!-- TARGET define como esse link será acessado -->
+            <a href="https://www.google.com" target="_blank">For mor details access!</a>
+            <p>
+                Entre em contato com: <a href="mailto:contato@suporte.com">contato@suporte.com</a>
+            </p>
+        </article>
+
+        <!-- ASIDE define na semântica do HTML5 como sendo um conteúdo separado do conteúdo principal da página, por exemplo, uma barra lateral. -->
+        <aside>
+            <p>Anuncios da página.</p>
+        </aside>
+
+        <!-- SECTION representa uma seção autônoma de funcionalidade contida em um documento HTML,
+      normalmente com um título, que não possui um elemento semântico mais específico para representá-lo. -->
+        <section>
+            <div class="color1">
+                <h1>StyleSheet</h1>
+            </div>
+
+            <div class="color2">
+                <h1>StyleSheet</h1>
+            </div>
+
+            <div class="color3">
+                <h1>StyleSheet</h1>
+            </div>
+        </section>
+
+        <!-- UL é uma lista não-ordenada -->
+        <ul class="menu">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <!-- OL é uma lista ordenada -->
+        <ol>
+            <li>
+                Front-End
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </li>
+            <li>
+                Back-End
+                <ul>
+                    <li>Java EE</li>
+                    <li>Spring Framework</li>
+                </ul>
+            </li>
+        </ol>
+
+        <!-- TABLE é um elemento que representa uma tabela de dados. -->
+        <table class="table">
+            <!-- THEAD representa o cabeçalho de uma tabela. -->
+            <thead>
+                <!-- TR é um elemento que representa a linha de uma tabela. -->
+                <tr>
+                    <!-- TH representa o titulo das colunas. Somente deve ser chamado dentro do elemento THEAD para seguir a semântica. -->
+                    <th>Nome</th>
+                    <th>Categoria</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <!-- TBODY é um elemento que representa o corpo de uma tabela, no caso, onde serão inseridos os dados. -->
+            <tbody>
+                <tr>
+                    <!-- TD representa os dados do corpo da tabela. São as colunas de dados das linhas. -->
+                    <td>Monitor LG 22''</td>
+                    <td>Informática</td>
+                    <td>R$592,82</td>
+                </tr>
+                <tr>
+                    <td>Monitor LG 22''</td>
+                    <td>Acessórios</td>
+                    <td>R$87,00</td>
+                </tr>
+                <tr>
+                    <td>Sabão em pó</td>
+                    <td>Limpeza</td>
+                    <td>R$11,50</td>
+                </tr>
+                <tr>
+                    <td>Coca-cola 2L</td>
+                    <td>Bebidas</td>
+                    <td>R$5,90</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Sistema de GRID Bootstrap -->
+        <article class="float-article">
+            <h2>Ja imaginou?</h2>
+
+            <p class="column1">
+                SECTION representa uma seção autônoma de funcionalidade contida em um documento HTML, normalmente com um título, que não possui um elemento semântico mais específico para representá-lo.
+            </p>
+            <p class="column2">
+                ASIDE define na semântica do HTML5 como sendo um conteúdo separado do conteúdo principal da página, por exemplo, uma barra lateral.
+            </p>
+        </article>
+
+        <div class="box">
+            <h2>O que é Lorem Ipsum?</h2>
+            <p>
+                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem
+                Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e
+                mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            </p>
+        </div>
+
+        <!-- Posicionamento Absoluto -->
+        <div class="box-absolute-1">
+            <div class="box-absolute-2">Caixa 2</div>
+            Caixa 1
+        </div>
+
+        <!-- Posicionamento Relativo -->
+        <div class="box-relative-1">
+            <div class="box-relative-2">Caixa 4</div>
+            Caixa 3
+        </div>
+
+        <!-- FOOTER define na semântica do HTML5 como sendo um rodapé, tanto da página quanto de um ARTICLE. -->
+        <footer>
+            Para mais informações sobre elementos da semântica do HTML5 acesse: <a href="https://developer.mozilla.org" target="_blank">MDN</a>
+            <p>Todos os direitos reservados.</p>
+        </footer>
+
+        <script type="text/javascript">
+            document.write("<h1>" + window.innerWidth + "x" + window.innerHeight + "</h1>");
+        </script>
+    </body>
+
+</html>
