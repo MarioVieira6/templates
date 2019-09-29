@@ -5,6 +5,7 @@ To make individual download of the projects, access [DownGit](https://minhaskama
 + [angular](README.md#angular-template)
   + [angular-mdb](https://github.com/MarioVieira6/templates/tree/master/angular-mdb)
   + [angular-primeng](https://github.com/MarioVieira6/templates/tree/master/angular-primeng)
+  + [angular-material](https://github.com/MarioVieira6/templates/tree/master/angular-material)
 + [eclipse-quality](README.md#eclipse-quality)
   + [checkstyle](README.md#Checkstyle)
 + [JavaFX](README.md#JavaFX)
