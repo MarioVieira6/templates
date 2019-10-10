@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'F1-Display';
+    src: local('./assets/fonts/Formula1 Display-Bold Bold'), local('./assets/fonts/Formula1-Display-Bold'), url('./assets/fonts/Formula1-Display-Bold.woff2') format('woff2'), url('./assets/fonts/Formula1-Display-Bold.woff') format('woff'), url('./assets/fonts/Formula1-Display-Bold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+/*!
+ * Global CSS (Specific of this project)
+ * 
+ * Remove yellow background forced by Chrome (only autofill)
+ * 
+ */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus {
+    background-color: #FFFFFF !important;
+    color: #555 !important;
+    -webkit-box-shadow: 0 1px 0 0 #D2D2D2, inset 0 0 0px 9999px white !important;
+    -webkit-text-fill-color: #555555 !important;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.mat-select-value,
+.mat-option,
+.mat-option-text,
+.mat-form-field .mat-select-value {
+    font-family: "F1-Display";
+    font-size: 13px;
+}
+
+.mat-calendar-content,
+.mat-button-wrapper,
+.mat-form-field-appearance-legacy .mat-form-field-infix,
+.mat-tooltip,
+.swal2-modal .swal2-content,
+.swal2-modal .swal2-title {
+    font-family: "F1-Display";
+}
+
+.swal2-modal .swal2-content {
+    font-size: 15px;
+}
+
+.swal2-modal .swal2-title {
+    font-size: 25px;
+}
