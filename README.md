@@ -11,6 +11,7 @@ In order to make individual download of the projects, access [DownGit](https://m
 + [JavaFX](README.md#JavaFX)
   + [UI](https://github.com/MarioVieira6/templates/tree/master/JavaFXUI)
   + [SceneBuilder](https://github.com/MarioVieira6/templates/tree/master/JavaFXSceneBuilder)
+* [jParent](README.md#jParent)
 * [RESTful-spring](README.md#RESTful-spring)
 * [RESTful-jersey](README.md#RESTful-jersey)
 * [spring-boot-maven](README.md#spring-boot-maven)
@@ -90,6 +91,34 @@ Run `ng update @angular/cli` and then `ng update @angular/core` for new version.
 * Task
 * View
 * CSS
+
+## jParent
+
+Basically, there are some separeted projects where each one has a specific function. This is a maven
+project with a **'pom Parent'** file responsable for generating all dependencies of the other projects.
+These projects are:
+
+#### Commons
+
+> It's a library with some usefull functions that you can to use in any other Java project.
+
+#### Report
+
+> It's a specific library to work with handling of Sheet. There is only one class that receive a Object list
+> to create a basic sheet. You can to test it in the Unit Test class.
+
+#### Hibernate
+
+> This project contains some generics methods to work with Database. The framework used is Hibernate with 
+> Spring Core and the included methods are 'create | read | update | delete' with some others atributes like
+> ordering, for example.
+
+#### Mail
+
+> It's a specific library to work with e-mail. The framework used is Velocity with Spring Core with a basic
+> configuration. You can download or copy this project and than you can to change the configuration as you want.
+> The basic configuration is using the Gmail host and the information about e-mail and password aren't specified,
+> that's why, you need to change of them adding yout main e-mail and password.
 
 ## template-html
 

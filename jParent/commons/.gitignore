@@ -1,0 +1,10 @@
+# teste DevOps
+# Finch, Campinas
+# Estrutura de arquivo ou diretórios que não devem ser add no git.
+
+.settings/
+logs/
+target/
+.project
+.classpath
+dependency-reduced-pom.xml
