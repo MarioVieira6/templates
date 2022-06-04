@@ -110,7 +110,7 @@ These projects are:
 #### Hibernate
 
 > This project contains some generics methods to work with Database. The framework used is Hibernate with 
-> Spring Core and the included methods are 'create | read | update | delete' with some others atributes like
+> Spring Core and the included methods are 'create | read | update | delete' with some others attributes like
 > ordering, for example.
 
 #### Mail
@@ -118,7 +118,7 @@ These projects are:
 > It's a specific library to work with e-mail. The framework used is Velocity with Spring Core with a basic
 > configuration. You can download or copy this project and than you can to change the configuration as you want.
 > The basic configuration is using the Gmail host and the information about e-mail and password aren't specified,
-> that's why, you need to change of them adding yout main e-mail and password.
+> that's why, you need to change them adding your main e-mail and password.
 
 ## template-html
 
