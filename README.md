@@ -100,12 +100,12 @@ These projects are:
 
 #### Commons
 
-> It's a library with some usefull functions that you can to use in any other Java project.
+> It's a library with some usefull functions that you can use in any other Java project.
 
 #### Report
 
-> It's a specific library to work with handling of Sheet. There is only one class that receive a Object list
-> to create a basic sheet. You can to test it in the Unit Test class.
+> It's a specific library to work with handling of Sheet. There is only one class that receive an Object list
+> to create a basic sheet. You can test it in the Unit Test class.
 
 #### Hibernate
 
@@ -116,7 +116,7 @@ These projects are:
 #### Mail
 
 > It's a specific library to work with e-mail. The framework used is Velocity with Spring Core with a basic
-> configuration. You can download or copy this project and than you can to change the configuration as you want.
+> configuration. You can download or copy this project and than you can change the configuration as you want.
 > The basic configuration is using the Gmail host and the information about e-mail and password aren't specified,
 > that's why, you need to change them adding your main e-mail and password.
 
